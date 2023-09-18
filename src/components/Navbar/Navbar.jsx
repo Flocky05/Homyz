@@ -9,7 +9,7 @@ const Navbar = () => {
                 <a href="/value">Our Value</a>
                 <a href="/contact">Contact Us</a>
                 <a href="/started">Get Started</a>
-                <button className="text-white px-8 py-2  rounded-lg  bg-blue-500">Learn More</button>
+                <a href="/" className="text-white px-8 py-2  rounded-lg  bg-blue-500">Learn More</a>
             </div>
         </div>
     );

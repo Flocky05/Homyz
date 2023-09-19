@@ -1,15 +1,16 @@
 
+import { Link } from "react-router-dom";
 import img from "../../assets/images/logo.png"
 const Navbar = () => {
     return (
         <div className="flex justify-between items-center p-5">
-            <a href="/"><img className="h-10" src={img} alt="" /></a>
+            <Link to="/"><img className="h-10" src={img} alt="" /></Link>
             <div className="flex justify-around text-white w-3/5 text-lg font-semibold">
-                <a href="/residencies">Residencies</a>
-                <a href="/value">Our Value</a>
-                <a href="/contact">Contact Us</a>
-                <a href="/started">Get Started</a>
-                <a href="/" className="text-white px-8 py-2  rounded-lg  bg-blue-500">Learn More</a>
+                <Link to="/residencies">Residencies</Link>
+                <Link to="/value">Our Value</Link>
+                <Link to="/contact">Contact Us</Link>
+                <Link to="/started">Get Started</Link>
+                <Link to="/" className="text-white px-8 py-2  rounded-lg  bg-blue-500">Learn More</Link>
             </div>
         </div>
     );

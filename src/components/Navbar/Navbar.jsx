@@ -2,9 +2,9 @@
 import img from "../../assets/images/logo.png"
 const Navbar = () => {
     return (
-        <div className="flex items-center p-5">
-            <img src={img} alt="" />
-            <div className="flex justify-around text-white w-full ">
+        <div className="flex justify-between items-center p-5">
+            <a href="/"><img className="h-10" src={img} alt="" /></a>
+            <div className="flex justify-around text-white w-3/5 text-lg font-semibold">
                 <a href="/residencies">Residencies</a>
                 <a href="/value">Our Value</a>
                 <a href="/contact">Contact Us</a>

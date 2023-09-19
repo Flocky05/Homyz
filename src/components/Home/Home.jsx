@@ -13,8 +13,8 @@ const Home = () => {
                 <p className="py-10">Find a variety of properties that suit you very easilty
                 Forget all difficulties in finding a residence for you</p>
                 <div className="relative">
-                    <img className="absolute h-8 mt-2 ml-32 lg:ml-2" src={img} alt="" /> 
-                    <input type="text" className="w-2/4 bg-white h-14 text-black rounded-lg pl-10" placeholder="Enter location" />
+                    <img className="absolute h-8 mt-2 ml-24 lg:ml-2" src={img} alt="" /> 
+                    <input type="text" className="w-3/5 bg-white h-14 text-black rounded-lg pl-10" placeholder="Enter location" />
                     <button className="bg-red-600 text-white px-7 lg:px-9 py-3 rounded-md absolute -ml-28 lg:-ml-32 mt-1">Search</button>
                 </div>
             </div>

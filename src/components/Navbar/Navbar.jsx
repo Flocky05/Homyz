@@ -2,7 +2,7 @@
 import img from "../../assets/images/logo.png"
 const Navbar = () => {
     return (
-        <div className="flex items-center">
+        <div className="flex items-center p-5">
             <img src={img} alt="" />
             <div className="flex justify-around text-white w-full ">
                 <a href="/residencies">Residencies</a>

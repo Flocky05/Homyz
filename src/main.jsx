@@ -10,6 +10,9 @@ import {
 import Main from './components/Main/Main';
 import Home from './components/Home/Home';
 import Residencies from './components/Residencies/Residencies';
+import Value from './components/Our Value/Value';
+import Contract from './components/Contact Us/Contract';
+import Started from './components/Get Started/Started';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,12 +27,16 @@ const router = createBrowserRouter([
         element:<Residencies></Residencies>
       },
       {
-        path:"/Residencies",
-        element:<Residencies></Residencies>
+        path:"/value",
+        element:<Value></Value>
       },
       {
-        path:"/about",
-        element:<About></About>
+        path:"/contact",
+        element:<Contract></Contract>
+      },
+      {
+        path:"/started",
+        element:<Started></Started>
       },
     ]
   },

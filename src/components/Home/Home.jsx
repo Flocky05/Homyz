@@ -18,7 +18,7 @@ const Home = () => {
                     <button className="bg-red-600 text-white px-7 lg:px-9 py-3 rounded-md absolute -ml-28 lg:-ml-32 mt-1">Search</button>
                 </div>
             </div>
-            <img className="w-3/5 rounded-t-full border-8 border-indigo-500 m-20" src={img1} alt="" />
+            <img className="w-3/5 rounded-t-full border-8 border-indigo-500 mx-20 mt-10" src={img1} alt="" />
         </div>
     );
 };

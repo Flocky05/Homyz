@@ -16,18 +16,18 @@ const Interior = () => {
         <div>
             <h3 className="text-3xl font-bold p-10 text-center">Our <span className="text-yellow-400">Interior</span> Design</h3>
             <div className="grid grid-cols-2 lg:mx-20 lg:px-20">
-            <img className="p-2" src={img} alt="" />
-            <img className="p-2"  src={img1} alt="" />
-            <img className="p-2 object-cover"  src={img2} alt="" />
-            <img  className="p-2" src={img3} alt="" />
-            <img className="p-2"  src={img4} alt="" />
-            <img className="p-2"  src={img5} alt="" />
-            <img className="p-2"  src={img6} alt="" />
-            <img className="p-2"  src={img7} alt="" />
-            <img className="p-2"  src={img8} alt="" />
-            <img className="p-2"  src={img9} alt="" />
-            <img className="p-2"  src={img10} alt="" />
-            <img className="p-2"  src={img11} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100  transition duration-700 ease-in-out" src={img} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img1} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img2} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out" src={img3} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img4} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img5} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img6} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img7} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img8} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img9} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img10} alt="" />
+            <img className="p-2 opacity-70 hover:opacity-100 transition duration-700 ease-in-out"  src={img11} alt="" />
         </div>
         </div>
     );

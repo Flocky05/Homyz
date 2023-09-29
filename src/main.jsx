@@ -13,6 +13,7 @@ import Residencies from './components/Residencies/Residencies';
 import Value from './components/Our Value/Value';
 import Contract from './components/Contact Us/Contract';
 import Started from './components/Get Started/Started';
+import Footer from './components/Footer/Footer';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
         path:"/started",
         element:<Started></Started>
       },
+      {
+        path:"/footer",
+        element:<Footer></Footer>
+      }
     ]
   },
 ]);

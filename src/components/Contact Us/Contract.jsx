@@ -23,13 +23,13 @@ const Contract = () => {
             <h3 className="text-3xl font-semibold text-center">Our <span className="text-yellow-400">Team</span> Members</h3>
             <div className="grid grid-cols-6 p-20 relative">
                 <img className="w-64  rounded-full" src={img} alt="" />
-                <img className="w-64  rounded-full" src={img1} alt="" />
+                <img className="w-64  rounded-full" src={img8} alt="" />
                 <img className="w-64  rounded-full" src={img2} alt="" />
                 <img className="w-64  rounded-full" src={img3} alt="" />
                 <img className="w-64  rounded-full" src={img4} alt="" />
                 <img className="w-64  rounded-full" src={img5} alt="" />
                 <img className="w-64  rounded-full " src={img6} alt="" />
-                <img className="w-64  rounded-full " src={img8} alt="" />
+                <img className="w-64  rounded-full " src={img1} alt="" />
                 <img className="w-64  rounded-full" src={img9} alt="" />
                 <img className="w-64  rounded-full" src={img10} alt="" />
                 <img className="w-64  rounded-full" src={img11} alt="" />

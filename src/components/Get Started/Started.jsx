@@ -3,6 +3,8 @@ import img1 from "../../assets/getstart/paypal-48.png"
 import img2 from "../../assets/getstart/apple.png"
 import img3 from "../../assets/getstart/visa-50.png"
 import img4 from "../../assets/getstart/shopify-50.png"
+import scan from "../../assets/getstart/scan-64.png"
+import charts from "../../assets/getstart/charts.png"
 const Started = () => {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center p-20 m-20">
@@ -20,13 +22,15 @@ const Started = () => {
                 <div className="border-8 border-gray-500 rounded-full absolute h-96 w-96 left-0"></div>
                 {/* card1 start */}
                 <div className="bg-gradient-to-r from-gray-600 to to-black text-white m-8 p-4 absolute w-1/4 rounded-lg -mt-48">
+                        <img className="w-6 invert rounded-lg mx-auto" src={scan} alt="" />
                         <h3 className="text-md text-center">Scan your Id Card</h3>
                         <p className="text-sm text-center">Lorem ipsum dolor sit, amet  Quisquam.</p>
                 </div>
                 {/* Card2 start  */}
-                <div className="bg-gradient-to-r from-gray-600 to to-black text-white m-8 p-4 absolute w-2/5 rounded-lg -mt-64 ml-60">
-                        <h3 className="text-md text-center">Scan your Id Card</h3>
-                        <p className="text-sm text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam corrupti vero culpa harum  voluptates corporis tenetur fugiat!</p>
+                <div className="bg-gradient-to-r from-gray-600 to to-black text-white absolute m-4 p-4 w-2/5 rounded-lg -mt-64 ml-60">
+                        <h3 className="text-md text-center py-2">Online Analysis</h3>
+                        <p className="text-sm text-center ">Lorem ipsum dolor  fugiat!</p>
+                        <img className="mt-2" src={charts} alt="" />
                 </div>
                 {/* Card3 start */}
                 <div className="bg-gradient-to-r from-gray-600 to to-black text-white m-8 p-4 absolute w-2/3 rounded-lg mt-64 ml-36">

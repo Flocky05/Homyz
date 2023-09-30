@@ -5,7 +5,7 @@ import img2 from "../../assets/People/people4.avif"
 
 const PeopleSays = () => {
     return (
-        <div>
+        <div className="m-20">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                     <div className="text-4xl font-bold p-4">
                         <h2 className="py-3">What people are </h2>

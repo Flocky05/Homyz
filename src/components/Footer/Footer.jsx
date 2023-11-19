@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="bg-[#031B34] w-full">
+        <div className="bg-[#031B34] w-full text-white">
             <div className="flex flex-col items-center p-10 lg:p-20 text-center">
                 <h2 className="text-4xl text-center font-semibold">Do you want to step in to the </h2>
                 <h2 className="text-4xl text-center ">future before others</h2>
